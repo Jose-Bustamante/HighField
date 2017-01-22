@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "eslint-plugin-html": "^1.7.0"
+  }
+}
