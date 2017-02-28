@@ -107,6 +107,7 @@ img {
 
 .row {
   align-self: center;
+  align-self: flex-start;
   width: 100vw;
 }
 
@@ -124,12 +125,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-@media (max-width: 543px) {
-  p {
-    /*font-size: 2vh;*/
-  }
 }
 
 @media (max-width: 543px) {
@@ -174,6 +169,13 @@ img {
 
 @media (max-width: 1199px) {
 
+}
+
+@media (max-width: 543px) {
+
+  .text__padding-small-screen{
+    padding: 0 35px 0 35px;
+  }
 }
 
 @media screen and (max-width: 728px) and (min-width: 560px) {
