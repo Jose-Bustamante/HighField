@@ -26,6 +26,18 @@ img {
   height: auto;
 }
 
+.flag__wrapper {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 999;
+}
+
+.language__flag {
+  width: 20px;
+  height: 15px;
+}
+
 .photos__img {
   padding-bottom: 30px;
 }
