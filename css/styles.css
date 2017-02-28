@@ -130,7 +130,7 @@ img {
   }
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) and (min-width: 768px){
 
   .photos__img {
     padding-top: 25px;
@@ -142,7 +142,7 @@ img {
 }
 
 @media screen and (max-width: 728px) and (min-width: 560px) {
-  .photos__img {
-    padding-top: 70px;
-  }
+  /*.photos__img {*/
+    /*padding-top: 70px;*/
+  /*}*/
 }
