@@ -1,3 +1,15 @@
+@font-face {
+  font-family: Ora;
+  src: url(/fonts/Oranienbaum/Oranienbaum.ttf);
+}
+@font-face {
+  font-family: Inf;
+  src: url(/fonts/Infinity-Font/Infinity.ttf);
+}
+@font-face {
+  font-family: Fab;
+  src: url(/fonts/Fabrica/Fabrica.otf);
+}
 
 body {
   background-image: url("../img/bg.jpg");
@@ -74,6 +86,13 @@ img {
 
 .text__wrapper {
   padding-top: 25px;
+  /*font-family: Inf;*/
+}
+
+.text__wrapper h2 {
+  font-family: Silom;
+  font-size: 50px;
+  font-weight: bold;
 }
 
 .photos__wrapper {
