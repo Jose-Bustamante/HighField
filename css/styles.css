@@ -86,7 +86,8 @@ img {
 
 .text__wrapper {
   padding-top: 25px;
-  /*font-family: Inf;*/
+  font-family: Palatino;
+  color: rgb(244,244,244);
 }
 
 .text__wrapper h2 {
