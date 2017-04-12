@@ -49,7 +49,7 @@ img {
 .container {
   text-align: center;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   color: #e0dbdb;
   display: flex;
 }
@@ -60,6 +60,11 @@ img {
   height: 100%;
   color: #e0dbdb;
   display: flex;
+}
+
+.content {
+  align-self: center;
+  align-items: center;
 }
 
 .whatsapp{
@@ -75,6 +80,10 @@ img {
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 5px;
+}
+
+.block__text {
+
 }
 
 .notextdecoration {
@@ -103,7 +112,7 @@ img {
 }
 
 .text__wrapper h2 {
-  font-family: Silom;
+  font-family: 'Palatino';
   font-size: 50px;
   font-weight: bold;
 }
@@ -119,7 +128,6 @@ img {
 
 .row {
   align-self: center;
-  align-self: flex-start;
   width: 100vw;
 }
 
@@ -157,6 +165,9 @@ img {
   }
   .text__padding-small-screen{
     padding: 0 75px 0 75px;
+  }
+  .content {
+    padding-top: 25px;
   }
 }
 
